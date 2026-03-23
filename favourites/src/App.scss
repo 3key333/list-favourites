@@ -1,0 +1,57 @@
+main{
+    display: flex;
+    justify-content: center;
+
+    .main-inner{
+        margin-top: 100px;
+
+        & > .main-title{
+            display: flex;
+            justify-content: center;
+
+            margin-bottom: 10px;
+
+            h1{
+                cursor: pointer;
+                color: black;
+            }
+        }
+    }
+}
+
+.list-recipes {
+    display: block;
+    max-width: 500px;
+
+    .dish{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-bottom: 40px;
+
+        & > .dish-name{
+            margin-right: 10px;
+            
+            cursor: pointer;
+        }
+
+        & > .dish-button {
+
+            & > button {
+                border: 0px;
+                border-radius: 5px;
+
+                padding: 10px;
+
+                background-color: rgba(8, 182, 8, 0.801);
+
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.02);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.error-block{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 150px;
+    
+    .error-block > h1{
+        font-size: 100px;
+        font-weight: 600;
+
+        color: black;
+    }
+}

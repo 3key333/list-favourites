@@ -1,0 +1,31 @@
+.favourite-list{
+    display: flex;
+    justify-content: center;
+
+    .favourite-list-inner{
+        margin-top: 100px;
+
+        & > .favourite-list-title{
+            display: flex;
+            justify-content: center;
+
+            margin-bottom: 10px;
+
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+.favourite-recipes {
+    display: block;
+
+    .liked-dish{
+        display: flex;
+
+        font-size: 25px;
+
+        margin-bottom: 20px;
+    }
+}
